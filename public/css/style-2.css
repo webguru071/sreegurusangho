@@ -1,0 +1,78 @@
+.bn-font{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font h1{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font h2{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+
+.bn-font h3{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font h4{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font h5{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font h6{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+
+.bn-font p{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font a{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font button{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+.bn-font select{
+    font-family: 'SolaimanLipi', sans-serif !important;
+}
+
+
+@media (max-width: 992px) {
+    .contact_form_area{
+        padding-bottom: 35px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .contact_info_box h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact_info_box h2{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact_info_box{
+        padding: 10px 10px;
+    }
+    .contact_info_box h4{
+        font-size: 15px;
+    }
+
+    .contact_info_box h2{
+        font-size: 18px;
+    }
+}

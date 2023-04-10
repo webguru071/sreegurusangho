@@ -1,0 +1,74 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1640px;
+    }
+}
+
+@media (max-width: 1540px) {
+    .main-navbar .navbar .navbar-nav .nav-item a {
+        font-size: 16px;
+    }
+    .main-navbar .navbar .navbar-nav .nav-item {
+        margin-left: 12px;
+        margin-right: 13px;
+    }
+}
+@media (max-width: 1440px) {
+  
+}
+
+@media (max-width: 1199px) {
+    .display_nones{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer_text_right {
+        justify-content: center;
+    }
+    .footer_text_left{
+        text-align: center;
+    }
+    .topbar_slugen_wrapper img{
+        display: block;
+    }
+    .mondir_text {
+        padding-top: 30px;
+    }
+.about_img_right{
+    padding-top: 30px;
+}
+.app__main {
+    width:100%;
+}
+.logo_topbar {
+  display: none;
+}
+.reg_num_phone{
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+    .topbar_text_lg {
+        font-size: 23px;
+        padding-top: 4px;
+    }
+}
+
+@media (max-width: 576px) {
+ 
+}
+
+@media (max-width: 480px) {
+ 
+}
+
+@media (max-width: 361px) {}
