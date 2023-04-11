@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="contact_form_area">
                         <form action="{{ route("send.email") }}" method="POST">
                             @csrf
@@ -61,7 +61,8 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-6">
+
+                <div class="col-lg-4">
                     <div class="contact_right_area">
                         @foreach ($pageInfo->sections as $PerCS)
                             <div class="contact_info_box">
@@ -75,6 +76,18 @@
                                 @endif
                             </div>
                         @endforeach
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="map-area">
+                        @if($currentLanguage == 'en')
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.6554947961563!2d90.06317016534956!3d22.62933643658773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375554b02e4dcb2f%3A0x874c19c1bbc10df4!2sGuru%20Songho%20Kendrio%20Asrom%2C%20Asrom%20Road%2C%20Kawkhali!5e0!3m2!1sen!2sbd!4v1681197718698!5m2!1sen!2sbd" width="600" height="575" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        @endif
+
+                        @if ($currentLanguage == 'bn')
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52500.9271923128!2d90.0342590332852!3d22.61111155534216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375555f4d9e3a41d%3A0x93dcc13e945ad7c!2z4Ka24KeN4Kaw4KeAIOCml-CngeCmsOCngSDgprjgpoLgppgg4KaV4KeH4Kao4KeN4Kam4KeN4Kaw4KeA4KefIOCmhuCmtuCnjeCmsOCmriwg4KaV4Ka-4KaJ4KaW4Ka-4Kay4KeA!5e0!3m2!1sen!2sbd!4v1681197654644!5m2!1sen!2sbd" width="600" height="575" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        @endif
                     </div>
                 </div>
             </div>

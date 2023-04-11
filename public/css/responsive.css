@@ -30,6 +30,12 @@
 }
 
 @media (max-width: 992px) {
+    .contact_right_area{
+        padding-top: 30px;
+    }
+    .map-area{
+        padding-top: 30px;
+    }
     .footer_text_right {
         justify-content: center;
     }

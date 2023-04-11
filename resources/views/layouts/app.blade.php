@@ -552,9 +552,9 @@
 
                                         {{-- @if($currentLanguage == 'en')
                                             <div id="calendar1"></div>
-                                        @endif
+                                        @endif --}}
 
-                                        @if($currentLanguage == 'bn')
+                                        {{-- @if($currentLanguage == 'bn')
                                             <script src="{{ asset("js/bncalendar.js") }}"></script>
                                             <script type="text/javascript">
 
@@ -567,52 +567,9 @@
                                             </script>
                                         @endif --}}
 
-                                        {{-- <div class="">
-                                            <h4 class="h5p calendar-text">
-                                                &#9884;
-                                                                                                     দিনপঞ্জিকা
-                                                &#9884;
-                                            </h4>
-                                            <div id="content">
-                                                <div style="clear: both;"></div>
-                                                <div class="pgfgl">
-                                                    <div>
-                                                        <div class="table-responsive">
-                                                            <div id="Calendar">
-                                                                <table width="100%" style="background-color: #5daee2;    border-top-left-radius: 5px;border-top-right-radius: 5px;">
-                                                                  <tr>
-                                                                      <td class="mNav"><a onclick="LoadMonth('03', '2023')"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a></td>
-                                                                      <td colspan="5" class="cMonth">
-                                                                                                                                                                              চৈত্র - ১৪২৯ ||
-
-                                                                                                                                                                                   এপ্রিল - ২০২৩
-                                                                      </td>
-                                                                      <td class="mNav"><a onclick="LoadMonth('05', '2023')"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                      <td class="wDays">সোম</td>
-                                                                      <td class="wDays">মঙ্গল</td>
-                                                                      <td class="wDays">বুধ</td>
-                                                                      <td class="wDays">বৃহঃ</td>
-                                                                      <td class="wDays">শুক্র</td>
-                                                                      <td class="wDays">শনি</td>
-                                                                      <td class="wDays">রবি</td>
-                                                                  </tr>
-                                                                <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০১</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০২</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td></tr><tr><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৩</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৪</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৫</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৬</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৭</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৮</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>০৯</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td></tr><tr><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১০</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১১</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১২</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৩</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৪</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৫</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৬</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td></tr><tr><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৭</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৮</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>১৯</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২০</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২১</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২২</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৩</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td></tr><tr><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৪</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৫</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৬</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৭</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৮</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>২৯</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td><td class='noevent'><div class='popup' onclick="myFunction()"><table class='tabl_intb'><tr><td><hr></td><td rowspan='2'>৩০</td></tr><tr><td></td></tr></table> <span class='popuptext' id='myPopup'> <hr>  <hr> <hr> -  মিঃ</span></div></td></tr>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                        <h4 style="width: 100%; margin: 0px auto; padding: 10px 6px; background: #f3d25d; text-align: center; font-size: 16px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;color: #000;">
-                                                            বিস্তারিত দেখার জন্য তারিখের উপর ক্লিক করুন ...
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> --}}
-
                                         <div id="layoutCalenderView">
                                             <div class="d-flex justify-content-center mb-2">
-                                                <span>{{ now()->format("M-Y") }} / </span> <span id="layoutBanglaYearMonthSpan">{{ now() }} </span>
+                                                <span id="layoutBanglaYearMonthSpan">{{ now() }} </span>
                                             </div>
 
                                             <div class="table-responsive">
@@ -622,6 +579,12 @@
                                                 @endphp
                                             </div>
                                         </div>
+
+                                    </div>
+                                </div>
+                                <div class="app__main">
+                                    <div class="calendar">
+                                        <div id="calendar"></div>
                                     </div>
                                 </div>
                             </div>
